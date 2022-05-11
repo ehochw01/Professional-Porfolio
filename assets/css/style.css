@@ -69,12 +69,45 @@ header h1 {
 #about-section p {
     padding: 30px;
     padding-top: 10%;
+    border: #303030;
 }
 
 
-#selfphoto {
-    width: 300px;
+#selfphoto { 
+    padding-top: 20px;
+    width: 28%;
+    height: auto;
     border-radius: 120px;
+}
+
+#main-image{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-image img {
+    max-width: 100%;
+    height: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#main-image figcaption{
+    text-align: center;
+    top: 50px;
+}
+
+
+#work-section {
+    display: flex;
+    flex-direction: horizontal;
+}
+
+#work{
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    /* border-right: solid; */
 }
 
 #site-footer{
@@ -94,14 +127,14 @@ header h1 {
 footer ul {
     list-style-type: none;
     padding-top: 40px;
-    padding-left: 120px;
+    padding-left: 20%;
   
 }
 
 footer ul li {
     display:inline;
+    padding: 20px;
     margin: 20px;
-    margin-right: 50px;
 }
 
 

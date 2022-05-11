@@ -2,7 +2,7 @@
     --dark: #303030;
     --header-color: #2a607c;
     --light: rgb(223, 223, 255);
-    --theme: #F24BED;
+    --purple: #F24BED;
     --selector-color:rgb(31, 194, 194); 
     --border: lightgrey; 
 }
@@ -70,6 +70,7 @@ header h1 {
     padding: 30px;
     padding-top: 10%;
     border: #303030;
+    font-size: 20px;
 }
 
 
@@ -86,10 +87,10 @@ header h1 {
 }
 
 #main-image img {
-    max-width: 100%;
+    max-width: 97%;
     height: auto;
-    padding-right: 20px;
-    padding-left: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #main-image figcaption{
@@ -110,13 +111,15 @@ header h1 {
     /* border-right: solid; */
 }
 
+.work-images:hover{
+    box-shadow: 5px 5px 5px var(--purple);
+}
+
 #site-footer{
     height: 100px;
-    background-color: grey;
+    background-color: rgb(170, 170, 170);
     display: flex;
     flex-direction: left;
-    color: maroon;
-
 }
 
 #contact-me{
@@ -135,6 +138,8 @@ footer ul li {
     display:inline;
     padding: 20px;
     margin: 20px;
+    font-size: 18px;
+    color: var(--light);
 }
 
 
